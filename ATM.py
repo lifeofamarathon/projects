@@ -14,6 +14,7 @@ while counter < 3:  # this iterates over the counter variable
     # This breaks when you enter the pin wrong 3 times without going to the next line
     else:
         print(f'Invalid pin, only 3 attemps, please try again!\n')
+        print(f'You have {3-counter} attempts left')
         if counter < 3:
             continue
         else:
